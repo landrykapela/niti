@@ -1,0 +1,271 @@
+body{
+	margin:0;
+}
+section{
+	padding-top: 5vh;
+}
+header {
+	position: relative;
+	left:0px;
+	top:0;
+	margin: 0 auto;
+	width:100%;
+	border: 0px solid yellow;
+	background-image: url('../images/building.jpg');
+	background-size: cover;
+	height: 60vh;
+	display:block;
+	text-align: center;
+	vertical-align: middle;
+}
+@media screen and (min-width: 767px){
+	header {
+	position: relative;
+	left:0px;
+	top:0;
+	margin: 0 auto;
+	width:100%;
+	border: 0px solid yellow;
+	background-image: url('../images/building.jpg');
+	background-size: cover;
+	height: 60vh;
+	display:block;
+	text-align: center;
+}
+#menu_button_container{
+	display: none;
+}
+.menu-button{
+	width: 4em;
+	height: 4em;
+	display: none;
+}
+.navigation{
+	display: inline-block;
+}
+.logo{
+	width:100px;
+	height: 100px;
+	margin: 10px;
+	border: 0px solid red;
+}
+#intro{
+	border-right: 2px dashed grey;
+}
+.header-text{
+	font-size: 3em;
+	font-family: Helvetica, 'Sans serif';
+	padding: 3em;
+}
+}
+@media screen and (max-width: 766px){
+	header {
+	position: relative;
+	left:0px;
+	top:0;
+	margin: 0 auto;
+	width:100%;
+	border: 0px solid yellow;
+	background-image: url('../images/building.jpg');
+	background-size: cover;
+	height: 60vh;
+	display:block;
+	text-align: center;
+}
+#menu_button_container{
+	display: block;
+}
+.menu-button{
+	width: 3em;
+	height: 3em;
+	display: inline-block;
+	margin: 1em;
+	cursor: pointer;
+}
+nav.nav-menu{
+	padding-top: 2em;
+	margin: 2em 3em 2em 3em;
+}
+.menu-item{
+	display: block;
+	padding: 20px;
+}
+.menu-item a:link, a:visited{
+	color: blue;
+	text-decoration: none;
+}
+.menu-item a:hover{
+	text-decoration: underline;
+	color: white;
+}
+
+.navigation{
+
+	display: none;
+}
+.logo{
+	width:100px;
+	height: 100px;
+	margin: 10px;
+}
+#intro{
+	border-right: 0px dashed grey;
+}
+.header-text{
+	font-size: 2em;
+	font-family: Helvetica, 'Sans serif';
+	padding: 1.5em;
+}
+}
+.container{
+	width: 100%;
+	margin:0 auto;
+	background-color: grey;
+	text-align: center;
+}
+.nav-item{
+	text-align: center;
+	text-transform: none;
+	margin: 0.5em;
+
+}
+.nav-item a:link, a:visited{
+	color: blue;
+	text-decoration: none;
+}
+.nav-item a:hover{
+	text-decoration: none;
+	color: white;
+}
+.right{
+	text-align: right;
+}
+.center{
+	text-align: center;
+}
+.bottom{
+	position:relative;
+	bottom:2em;
+}
+
+
+section{
+}
+article h1,h2,h3,h4,h5{
+	text-transform: capitalize;
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+article h4,h5{
+	text-align: left;
+	margin-left: 1em;
+}
+footer{
+	position: relative;
+	bottom: 0;
+	height: 6vh;
+	display: block;
+	background-color: grey;
+}
+footer p{
+	font-size: 0.8em;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+footer a:link, a:visited{
+	color: white;
+	text-decoration: none;
+}
+footer a:hover{
+	color: white;
+	text-decoration: underline;
+}
+.para{
+	text-align: justify;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+.para-cap{
+	margin:10px auto;
+	text-align: justify;
+	width: 80%;
+}
+.thumbnail{
+	width: 80%;
+}
+span.spacer{
+	display: inline-block;
+	margin: 20px auto;
+}
+.form-inputtext{
+	width:70%;
+	margin:10px auto;
+	padding: 5px;
+}
+.form-button{
+	margin:10px auto;
+	text-transform: uppercase;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+}
+.white{
+	color: white;
+}
+.primary{
+	background-color: #0277bd;
+}
+.primary-dark{
+	background-color: #004c8c;
+}
+.primary-light{
+		background-color: #58a5f0;
+}
+
+.primary-text{
+	color: #0277bd;
+}
+.primary-dark-text{
+	color: #004c8c;
+}
+.primary-light-text{
+	color: #58a5f0;
+}
+.secondary{
+	background-color: #ef5350;
+}
+.secondary-dark{
+	background-color: #b61827;
+}
+.secondary-light{
+		background-color: #ff867c;
+}
+
+.secondary-text{
+	color: #ef5350;
+}
+.secondary-dark-text{
+	color: #b61827;
+}
+.secondary-light-text{
+	color: #ff867c;
+}
+.button-link{
+	margin:10px auto;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+}
+.hidden{
+	display: none;
+	visibility: gone;
+}
+.visible{
+	display: inline-block;
+	visibility: visible;
+}

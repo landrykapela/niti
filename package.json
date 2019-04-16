@@ -1,0 +1,35 @@
+{
+  "name": "misiga",
+  "version": "1.0.0",
+  "description": "Draft Website for Nyerere Institute of Technology and Innovation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Misiga",
+    "communications",
+    "internet",
+    "provider",
+    "dar",
+    "es",
+    "salaam",
+    "telecommunication",
+    "services",
+    "internet",
+    "services"
+  ],
+  "author": "Landry Kapela",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-uglify": "^3.0.1",
+    "jshint": "^2.9.7",
+    "run-sequence": "^2.2.1"
+  }
+}
