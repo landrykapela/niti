@@ -24,7 +24,7 @@
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "browser-sync": "^2.26.3",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-cli": "^2.0.1",
     "gulp-jshint": "^2.1.0",
